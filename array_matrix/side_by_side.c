@@ -19,7 +19,7 @@ int main(){
         printf("type the value of the element of array B:");
         scanf("%d", &arrayb[j]);
     }
-    if(n==m){
+    if(n==m){                                                                  //maybe i can make a double for to optimize the program
         for (counter=0; counter<n; counter++){
             printf("A: %d , B: %d \n", arraya[counter], arrayb[counter] );
             printf("2 numbers\n");
