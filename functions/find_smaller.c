@@ -3,20 +3,20 @@
 
 #include <stdio.h>
 
-int menor_ele(int n, int v[n]){
+int smaller_element(int n, int v[n]){
     int i, j, k;
     for(i=0;i<n;i++){
-        printf("digite o valor para o elemento:");
+        printf("type the value for the element:");
         scanf("%d",&v[i]);
     }
-    int menor = v[0];
+    int smaller = v[0];
     for(j=1;j<n;j++){
-        if(menor>=v[j]){
-            menor = v[j];
+        if(smaller>=v[j]){
+            smaller = v[j];
         }
     }
     for(k=0;k<n; k++){
-        v[k] = v[k] - menor;
+        v[k] = v[k] - smaller;
         printf("%d \n", v[k]);
     }
 return 0;
@@ -25,9 +25,9 @@ return 0;
 
 int main(){
     int n;
-    printf("digite o tamanho do vetor");
+    printf("type the array's size:");
     scanf("%d", &n);
     int v[n];
-    printf("%d", menor_ele(n,v));
+    printf("%d", smaller_element(n,v));
 return 0;
 }
