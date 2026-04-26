@@ -6,7 +6,7 @@
 void main(){
     int x = 10;
     int *p = &x;
-    printf("valor de x é:%d",x);
-    printf("endereço de de x é:%d", &x);
-    printf("valor atraves do ponteiro é:%d", *p);
+    printf("the value of x is:%d",x);
+    printf("the memory adress of x is:%d", &x);
+    printf("the value from pointer is:%d", *p);
 }
