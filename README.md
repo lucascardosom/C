@@ -9,6 +9,7 @@ repository with exercises and implementations in C language
 -Functions structure
 -Recursion structure
 -Pointer
+-Dynamic memory allocation 
 -Abstract Data Type (ADT) structure
 
 # Goal
