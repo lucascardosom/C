@@ -3,7 +3,6 @@
 repository with exercises and implementations in C language
 
 # Content
--Basic vocabulary
 -Interation structure
 -Array and Matrix 
 -Functions structure
