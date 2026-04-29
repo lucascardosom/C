@@ -1,5 +1,5 @@
 //sum_sequence.c
-//calculating the sum of the firsts 50 elements of the sequence: S = 2/1*(x^4) + 4/3*(x^5) + 8/5*(x^6) + 16/7*(x^7) + ...
+//calculating the sum of the first 50 elements of the sequence: S = 2/1*(x^4) + 4/3*(x^5) + 8/5*(x^6) + 16/7*(x^7) + ...
 
 
 
