@@ -1,5 +1,5 @@
 //greatest_line.c
-//using dynamic malloc, pointer, recursion and interation to get the greatest elements of each line of the matrix
+//using dynamic malloc, pointer, recursion and iteration to get the greatest elements of each line of the matrix
 
 #include <stdio.h>
 #include <stdlib.h>
