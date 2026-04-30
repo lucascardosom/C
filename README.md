@@ -3,7 +3,7 @@
 repository with exercises and implementations in C language
 
 # Content
--Interation structure
+-Iteration structure
 -Array and Matrix 
 -Functions structure
 -Recursion structure
